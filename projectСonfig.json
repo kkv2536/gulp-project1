@@ -1,0 +1,34 @@
+{
+    "path": {
+        "src": {
+            "srcPath": "./src",
+            "components": "/_components",
+            "html": [
+                "/**/*.html"
+            ],
+            "style": [
+                "/scss/index.scss"
+            ],
+            "script": [
+                "/js/index.js"
+            ],
+            "image": [
+                "/images/**/*.*"
+            ],
+            "font": [
+                "/fonts/**/*.*"
+            ],
+            "assets": [
+                "/assets/**/*.*"
+            ]
+        },
+        "dist": {
+            "distPath": "./dist",
+            "html": "/",
+            "style": "/css/",
+            "image": "/images/",
+            "font": "/fonts/",
+            "assets": "/assets/"
+        }
+    }
+}
